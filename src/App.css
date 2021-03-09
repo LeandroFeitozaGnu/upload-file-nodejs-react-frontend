@@ -7,8 +7,8 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
-  background: #7159c1;
+  font-size: 24px;
+  background: #4d3f7c;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -18,6 +18,7 @@ html, body, #root {
 }
 
 .container {
+  flex-direction: column;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -28,7 +29,7 @@ html, body, #root {
   width: 100%;
   max-width: 400px;
   margin: 30px;
-  background: #FFF;
+  background: black;
   border-radius: 4px;
   padding: 20px;
 }

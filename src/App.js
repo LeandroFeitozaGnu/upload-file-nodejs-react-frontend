@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import Upload from './components/Upload'
+import MyUploader from './components/DropzoneUploader';
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className='container'>
+        <h3> Envio de imagens </h3>
         <div className='content'>
-          <Upload />
+          <MyUploader />
         </div>
       </div>
     )
